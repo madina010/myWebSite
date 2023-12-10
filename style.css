@@ -1,0 +1,97 @@
+header {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #25105f;
+    color: #fff;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    margin: 0!important;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: skyblue;
+}
+
+.aboutMe, .myHobbies, .portfolio{
+    width: 70%;
+    margin: 20px auto;
+    background-color: #ffffffbd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.301);
+}
+
+.aboutMe h2, .myHobbies h2, .portfolio h2 {
+    background-color: #25105f;
+    color: #fff;
+    padding: 0 10px;
+}
+
+.aboutMe p, .myHobbies p {
+    line-height: 1.6;
+}
+
+.section1 img {
+    float: left;
+    margin-top: 30px;
+    margin-right: 20px;
+    border-radius: 30%;
+    box-shadow: 0 0 15px rgba(31, 14, 107, 0.623);
+}
+
+.galleryOne, .galleryTwo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galleryOne, .galleryTwo {
+    margin: 10px;
+    text-decoration: none;
+    transition: transform 0.5s ease-in-out;
+}
+
+.galleryOne img {
+    max-width: 250px;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.galleryTwo img {
+    max-width: 250px;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.galleryOne a:hover, .galleryTwo a:hover{
+    transform: scale(1.1);
+}
+
+/* span {
+    color: #940988;
+} */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+
