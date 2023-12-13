@@ -38,6 +38,25 @@
             max-width: 1200px;
             margin: 0 auto;
         }
+
+        button {
+            position: absolute;
+            top: 15%;
+            right: 35%;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #160d99;
+            color: white;
+            border: 1px solid #160d99;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+
+        button:hover {
+            background-color: #3c3692; 
+            transform: scale(1.05);
+        }
     </style>
 </head>
 <body>
@@ -80,7 +99,7 @@
                     <p>Перейдём к <b>моим увлечениям^^</b></p><br>
                     <p><b>Во-первых,</b> хотелось бы отметить, что я очень люблю рисовать. Рисую с детства,  но никогда не ходила на профессиональные занятия. Думаю, можно сказать, что во многом являюсь самоучкой. Не особо имею знания в анатомии, поэтому часто рисую с референсов, но мои работы мне нравятся и вдохновляют на последующие.</p><br>
                     <p><b>Во-вторых,</b> смотрю аниме и читаю манги с манхвами. Это японские анимации и японские и корейские комиксы. Когда я только начинала, я очень много времени проводила за этим занятием. Сейчас у меня на это не так много времени, но я все так же люблю это дело. Ещё я часто черпаю вдохновение к рисованию именно после просмотра или прочтения какого-либо тайтла. Это увлечение даёт возможность испытать разный спектр эмоции, от грусти и злости до счастья, радости и очень громкого смеха.</p><br>
-                    <p><b>В-третьих,</b> игры. Да, я люблю играть в разные, чаще мобильные, игры. Могу выделить две, которые часто играю, это <b>Genshin Impact</b> и <b>Mobile Legends</b>. Помогает развеяться, расслабиться, а иногда даже выпустить пар. Ибо комьюнити в играх бывают разные. Иногда тиммейты попадаются просто милашки, а иногда бывают слишком жестоки. Впрочем,  это никак не влияет на моё времяпровождение.</p><br>
+                    <p><b>В-третьих,</b> игры. Да, я люблю играть в разные, чаще мобильные, игры. Могу выделить две, которые часто играю, это <span id="firstG"><b>Genshin Impact</b></span> и <span id="secondG"><b>Mobile Legends</b></span>. Помогает развеяться, расслабиться, а иногда даже выпустить пар. Ибо комьюнити в играх бывают разные. Иногда тиммейты попадаются просто милашки, а иногда бывают слишком жестоки. Впрочем,  это никак не влияет на моё времяпровождение.</p><br>
                     <p><b>В-четвертых,</b> спорт. Мне нравятся многие виды спорта, от игр с мячом до видов спорта, связанных с борьбой. Сама я ничем не занимаюсь, но мне все это очень нравится. Была неплоха в лёгкой атлетике в школьное время, но это время прошло, не будем зацикливаться на прошлом.</p><br>
                     <p>Думаю, это все, что могу сказать о <b>своих хобби)</b></p>
                 </div>
@@ -120,12 +139,54 @@
                     </div><br>
                     <h4>Так, а еще я часто делаю фото того, <span style="color: #940988;">что мне нравится...</span></h4><br>
                     <div class="galleryThree">
-                        
+                        <a href="https://ibb.co.com/hMT35rY"><img src="https://i.ibb.co.com/59JbDCK/photo-2023-12-13-23-12-56.jpg" alt="photo-2023-12-13-23-12-56"></a>
+                        <a href="https://ibb.co.com/SNHx9Tk"><img src="https://i.ibb.co.com/hsrMt5G/photo-2023-12-13-23-13-02.jpg" alt="photo-2023-12-13-23-13-02"></a>
+                        <a href="https://ibb.co.com/BPNVrDN"><img src="https://i.ibb.co.com/Ct25Md2/photo-2023-12-13-23-13-06.jpg" alt="photo-2023-12-13-23-13-06"></a>
+                        <a href="https://ibb.co.com/YTDTnGs"><img src="https://i.ibb.co.com/Qj8jSGw/photo-2023-12-13-23-13-14.jpg" alt="photo-2023-12-13-23-13-14"></a>
+                        <a href="https://ibb.co.com/BKz6jHN"><img src="https://i.ibb.co.com/Tqv0RDL/photo-2023-12-13-23-13-18.jpg" alt="photo-2023-12-13-23-13-18"></a>
+                        <a href="https://ibb.co.com/gSwBHSt"><img src="https://i.ibb.co.com/sKQMkKs/photo-2023-12-13-23-13-21.jpg" alt="photo-2023-12-13-23-13-21"></a>
+                        <a href="https://ibb.co.com/9bYhM15"><img src="https://i.ibb.co.com/k4cJdwC/photo-2023-12-13-23-13-25.jpg" alt="photo-2023-12-13-23-13-25"></a>
+                        <a href="https://ibb.co.com/hFXsTNS"><img src="https://i.ibb.co.com/s95jX4Z/photo-2023-12-13-23-13-29.jpg" alt="photo-2023-12-13-23-13-29"></a>
+                        <a href="https://ibb.co.com/YtdrwL0"><img src="https://i.ibb.co.com/gDWnhR4/photo-2023-12-13-23-13-35.jpg" alt="photo-2023-12-13-23-13-35"></a>
+                        <a href="https://ibb.co.com/JxvbXsk"><img src="https://i.ibb.co.com/LQxq4Zp/photo-2023-12-13-23-13-41.jpg" alt="photo-2023-12-13-23-13-41"></a>
+                        <a href="https://ibb.co.com/w7pVHVC"><img src="https://i.ibb.co.com/kJqjnj0/photo-2023-12-14-00-43-59.jpg" alt="photo-2023-12-14-00-43-59"></a>
+                        <a href="https://ibb.co.com/GPVBzVX"><img src="https://i.ibb.co.com/cTNM4NP/photo-2023-12-13-23-13-10.jpg" alt="photo-2023-12-13-23-13-10"></a>
+                        <a href="https://ibb.co.com/YXmDNxf"><img src="https://i.ibb.co.com/PMKTrd1/photo-2023-12-14-00-50-50.jpg" alt="photo-2023-12-14-00-50-50"></a>
+                        <a href="https://ibb.co.com/64KY7Lf"><img src="https://i.ibb.co.com/Q6W93t1/photo-2023-12-14-00-50-55.jpg" alt="photo-2023-12-14-00-50-55"></a>
+                        <a href="https://ibb.co.com/TYyxy56"><img src="https://i.ibb.co.com/sb7d7rn/photo-2023-12-14-00-50-59.jpg" alt="photo-2023-12-14-00-50-59"></a>
+                        <a href="https://ibb.co.com/hC8JjVS"><img src="https://i.ibb.co.com/SJv48Bz/photo-2023-12-14-00-51-02.jpg" alt="photo-2023-12-14-00-51-02"></a>
+                        <a href="https://ibb.co.com/ThCmQZk"><img src="https://i.ibb.co.com/ryW4Bgm/photo-2023-12-14-00-51-06.jpg" alt="photo-2023-12-14-00-51-06"></a>
+                        <a href="https://ibb.co.com/WcsLQk2"><img src="https://i.ibb.co.com/2j5Twvk/photo-2023-12-14-00-51-12.jpg" alt="photo-2023-12-14-00-51-12"></a>
+                        <a href="https://ibb.co.com/zNhqm37"><img src="https://i.ibb.co.com/g6Mkr0P/photo-2023-12-14-00-51-16.jpg" alt="photo-2023-12-14-00-51-16"></a>
+                        <a href="https://ibb.co.com/bzSWsK5"><img src="https://i.ibb.co.com/xJpC17q/photo-2023-12-14-00-51-19.jpg" alt="photo-2023-12-14-00-51-19"></a>
+                        <a href="https://ibb.co.com/YTnSGQz"><img src="https://i.ibb.co.com/G3YDjpK/photo-2023-12-14-00-51-21.jpg" alt="photo-2023-12-14-00-51-21"></a>
+                        <a href="https://ibb.co.com/4Nm78tz"><img src="https://i.ibb.co.com/tCm4qKg/photo-2023-12-14-00-51-24.jpg" alt="photo-2023-12-14-00-51-24"></a>
+                        <a href="https://ibb.co.com/Rg3jZ5H"><img src="https://i.ibb.co.com/ZfB2tZT/photo-2023-12-14-00-51-29.jpg" alt="photo-2023-12-14-00-51-29"></a>
+                        <a href="https://ibb.co.com/mBzH6qx"><img src="https://i.ibb.co.com/thCb8sd/photo-2023-12-14-00-51-31.jpg" alt="photo-2023-12-14-00-51-31"></a>
+                        <a href="https://ibb.co.com/88kS5p9"><img src="https://i.ibb.co.com/x5ZRj06/photo-2023-12-14-00-51-35.jpg" alt="photo-2023-12-14-00-51-35"></a>
+                        <a href="https://ibb.co.com/bXWYYgS"><img src="https://i.ibb.co.com/NKVff68/photo-2023-12-14-00-51-40.jpg" alt="photo-2023-12-14-00-51-40"></a>
+                        <a href="https://ibb.co.com/dkRfsKx"><img src="https://i.ibb.co.com/mh3Rrzg/photo-2023-12-14-00-51-25.jpg" alt="photo-2023-12-14-00-51-25"></a>
+                        <a href="https://ibb.co.com/Zz1x2r1"><img src="https://i.ibb.co.com/QvjMDVj/photo-2023-12-14-00-51-42.jpg" alt="photo-2023-12-14-00-51-42"></a>
+                        <a href="https://ibb.co.com/8stnWSb"><img src="https://i.ibb.co.com/LRHDL2r/photo-2023-12-14-00-51-52.jpg" alt="photo-2023-12-14-00-51-52"></a>
+                        <a href="https://ibb.co.com/V22XD3Z"><img src="https://i.ibb.co.com/9ssR2GL/photo-2023-12-14-01-00-03.jpg" alt="photo-2023-12-14-01-00-03"></a>       
+                    </div><br>
+                    <h4>И эти тоже красивые^^</h4><br>
+                    <div class="galleryFour">
+                        <a href="https://ibb.co.com/ChmGK3H"><img src="https://i.ibb.co.com/vZVn46j/photo-2023-12-13-23-13-44.jpg" alt="photo-2023-12-13-23-13-44"></a>
+                        <a href="https://ibb.co.com/9yq31GY"><img src="https://i.ibb.co.com/QY6jTXm/photo-2023-12-13-23-13-48.jpg" alt="photo-2023-12-13-23-13-48"></a>
+                        <a href="https://ibb.co.com/6nwPYKm"><img src="https://i.ibb.co.com/Vj9SVFt/photo-2023-12-13-23-13-51.jpg" alt="photo-2023-12-13-23-13-51"></a>
+                        <a href="https://ibb.co.com/KWcFgZ5"><img src="https://i.ibb.co.com/bXjzVh6/photo-2023-12-14-00-51-08.jpg" alt="photo-2023-12-14-00-51-08"></a>
+                        <a href="https://ibb.co.com/pLmsTwX"><img src="https://i.ibb.co.com/RD5MKbH/photo-2023-12-14-00-51-28.jpg" alt="photo-2023-12-14-00-51-28"></a>
+                        <a href="https://ibb.co.com/ZVG81dx"><img src="https://i.ibb.co.com/rmF6fkH/photo-2023-12-14-00-51-45.jpg" alt="photo-2023-12-14-00-51-45"></a>
                     </div>
                 </div>
             </div>
         </section>
-
+        <section class="shortInfo" style="position: relative;">
+            <div class="container">
+                <h4>Если желаете ознаокмиться с информацией вкратце, то жмите сюда--></h4><button type="button" onclick="window.location.href='tables.html'">(^_^)</button>
+            </div>
+        </section>
         <footer>
             <div class="end">
                 <div class="container">
