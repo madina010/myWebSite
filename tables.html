@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;400;500&family=Nunito:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <title>MadiSite</title>
+    <style>
+        *,
+        ::after,
+        ::before {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Barlow', sans-serif;
+            font-family: 'Nunito', sans-serif;
+            font-family: 'Ubuntu', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(https://storage.picsave.pp.ua/cluster1/origin/8ccb4ec4225b290726ae9be975220ff4.jpg);
+            font-size: 1.3em;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #000000;
+        }
+
+        header, nav, section {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+    
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+    
+        th {
+            background-color: #f2f2f2;
+        }
+    
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+
+        td ul, td ol {
+            margin-left: 20px;
+        }
+
+        header {
+            position: relative;
+        }
+
+        button {
+            position: absolute;
+            top: 15%;
+            left: 10%;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #160d99;
+            color: white;
+            border: 1px solid #160d99;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+
+        button:hover {
+            background-color: #3c3692; 
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <button type="button" onclick="window.location.href='index.html'">Назад</button>
+            <div class="start">
+                <a name="header"></a>
+                <p>Здесь вы можете ознакомиться с краткой информацией обо мне^^</p>
+            </div>
+        </header>
+        <nav>
+            <div class="container">
+                <div class="nav-sticky">
+                    <a href="#header">Главная</a>
+                    <a href="#aboutme">Обо мне</a>
+                    <a href="#edu">Мои увлечения</a>
+                    <a href="#portfolio">Портфолио</a>
+                    <a href="#contact">Контактная информация</a>
+                </div>
+            </div>
+        </nav>
+        <section class="aboutMe">
+            <div class="container">
+                <a name="aboutme"></a>
+                <h2>Обо мне</h2>
+                <table>
+                    <tr>
+                        <th>Имя</th>
+                        <td>Ахметова Мадина Сериковна</td>
+                    </tr>
+                    <tr>
+                        <th>Дата рождения</th>
+                        <td>25 апреля 2005 года</td>
+                    </tr>
+                    <tr>
+                        <th>Место проживания</th>
+                        <td>Город Алматы</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section class="education">
+            <div class="container">
+                <a name="edu"></a>
+                <h2>Образование</h2>
+                <table>
+                    <tr>
+                        <th>Образование</th>
+                        <td>Грант в колледж ЦАТЭК, специальность "Разработчик программного обеспечения"</td>
+                    </tr>
+                    <tr>
+                        <th>Текущий курс</th>
+                        <td>3 курс</td>
+                    </tr>
+                </table>                
+            </div>
+        </section>
+        <section class="myHobbies">
+            <div class="container">
+                <a href="hobby"></a>
+                <h2>Хобби</h2>
+                <table>
+                    <tr>
+                        <th>Увлечения</th>
+                        <td>
+                            <ul>
+                                <li>Рисование</li>
+                                <li>Аниме и манга</li>
+                                <li>Игры (Genshin Impact, Mobile Legends)</li>
+                                <li>Спорт</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>                
+            </div>
+        </section>
+        <section class="myTop">
+            <div class="container">
+                <a href="mytop"></a>
+                <h2>Мой топ тайтлов(от меня^^)</h2>
+                <table>
+                    <tr>
+                        <th>Аниме</th>
+                        <td>
+                            <ol>
+                                <li>Токийский гуль</li>
+                                <li>Твое имя</li>
+                                <li>Дарованный</li>
+                                <li>Клинок, рассекающий демонов</li>
+                                <li>Звездное дитя</li>
+                            </ol>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Манги и манхвы</th>
+                        <td>
+                            <ol>
+                                <li>Поднятие уровня в одиночку</li>
+                                <li>Лукизм</li>
+                                <li>Всеведущий читатель</li>
+                                <li>Борьба в прямом эфире</li>
+                                <li>Распятие шести</li>
+                            </ol>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section class="contactInfo">
+            <div class="container">
+                <a name="contact"></a>
+                <h2>Контактная информация</h2>
+                <table>
+                    <tr>
+                        <th>Email</th>
+                        <td>mad80ina@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <th>Телефон</th>
+                        <td>+7 (776) 969-4043</td>
+                    </tr>
+                    <tr>
+                        <th>Социальные сети</th>
+                        <td>
+                            <a target="_blank" href="https://instagram.com/iiu_aki?igshid=MzMyNGUyNmU2YQ==">Instagram</a><br>
+                            <a target="_blank" href="@akhm_aki">Telegram</a>
+                        </td>
+                    </tr>
+                </table>                
+            </div>
+        </section>
+    </div>
+</body>
+</html>
