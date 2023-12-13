@@ -24,7 +24,7 @@ nav a:hover {
     color: skyblue;
 }
 
-.aboutMe, .myHobbies, .portfolio{
+.aboutMe, .myHobbies, .portfolio, .education, .contactInfo, .myTop, .shortInfo {
     width: 70%;
     margin: 20px auto;
     background-color: rgba(255, 255, 255, 0.767);
@@ -33,7 +33,7 @@ nav a:hover {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.301);
 }
 
-.aboutMe h2, .myHobbies h2, .portfolio h2 {
+.aboutMe h2, .myHobbies h2, .portfolio h2, .education h2, .contactInfo h2, .myTop h2 {
     background-color: #25105f;
     color: #fff;
     padding: 5px 10px;
@@ -51,6 +51,14 @@ nav a:hover {
     box-shadow: 0 0 15px rgba(31, 14, 107, 0.623);
 }
 
+#firstG  {
+    color: #991187;
+}
+
+#secondG {
+    color: #a71616;
+}
+
 .galleryOne, .galleryTwo {
     display: flex;
     flex-wrap: wrap;
@@ -63,7 +71,7 @@ nav a:hover {
     transition: transform 0.5s ease-in-out;
 }
 
-.galleryOne img {
+.galleryOne img, .galleryTwo img {
     margin-right: 20px;
     margin-bottom: 20px;
     max-width: 250px;
@@ -71,21 +79,47 @@ nav a:hover {
     border: 2px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.galleryTwo img {
-    margin-right: 20px;
-    margin-bottom: 20px;
-    max-width: 250px;
-    height: auto;
-    border: 2px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
 }
 
 .galleryOne a:hover, .galleryTwo a:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
+
+.galleryThree {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    text-align: center;
+}
+
+.galleryThree a, .galleryFour a {
+    display: block;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.galleryThree img, .galleryFour img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    transition: transform 0.3s ease-in-out;
+}
+
+.galleryThree a:hover img, .galleryFour a:hover img {
+    transform: scale(1.05);
+}
+
+.galleryFour {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    text-align: center;
+}
+
+
+
+
 
 footer {
     text-align: center;
