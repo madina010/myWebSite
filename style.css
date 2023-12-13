@@ -17,7 +17,7 @@ nav {
 nav a {
     color: #fff;
     text-decoration: none;
-    margin: 0 15px;
+    margin: 0 12px;
 }
 
 nav a:hover {
@@ -27,7 +27,7 @@ nav a:hover {
 .aboutMe, .myHobbies, .portfolio{
     width: 70%;
     margin: 20px auto;
-    background-color: #ffffffbd;
+    background-color: rgba(255, 255, 255, 0.767);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.301);
@@ -36,7 +36,7 @@ nav a:hover {
 .aboutMe h2, .myHobbies h2, .portfolio h2 {
     background-color: #25105f;
     color: #fff;
-    padding: 0 10px;
+    padding: 5px 10px;
 }
 
 .aboutMe p, .myHobbies p {
@@ -45,7 +45,7 @@ nav a:hover {
 
 .section1 img {
     float: left;
-    margin-top: 30px;
+    margin-top: 70px;
     margin-right: 20px;
     border-radius: 30%;
     box-shadow: 0 0 15px rgba(31, 14, 107, 0.623);
@@ -64,6 +64,8 @@ nav a:hover {
 }
 
 .galleryOne img {
+    margin-right: 20px;
+    margin-bottom: 20px;
     max-width: 250px;
     height: auto;
     border: 2px solid #ddd;
@@ -72,6 +74,8 @@ nav a:hover {
 }
 
 .galleryTwo img {
+    margin-right: 20px;
+    margin-bottom: 20px;
     max-width: 250px;
     height: auto;
     border: 2px solid #ddd;
@@ -83,15 +87,9 @@ nav a:hover {
     transform: scale(1.1);
 }
 
-/* span {
-    color: #940988;
-} */
-
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #333;
+    background-color: #25105f;
     color: #fff;
 }
-
-
