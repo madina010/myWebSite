@@ -117,13 +117,118 @@ nav a:hover {
     text-align: center;
 }
 
-
-
-
-
 footer {
-    text-align: center;
-    padding: 20px;
     background-color: #25105f;
-    color: #fff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #160d99;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background-color: #3c3692;
+    transform: scale(1.1);
+}
+
+@media screen and (min-width:768px) and (max-width: 1024px) {
+    body {
+        font-size: 1.2em;
+    }
+
+    .aboutMe,
+    .myHobbies,
+    .portfolio,
+    .education,
+    .contactInfo,
+    .myTop,
+    .shortInfo {
+        width: 90%;
+        margin: 20px auto;
+        padding: 10px;
+    }
+
+    .section1 img {
+        float: none;
+        margin-top: 20px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    nav {
+        padding: 10px 0;
+    }
+
+    .galleryThree,
+    .galleryFour {
+        display: block;
+    }
+
+    form {
+        max-width: none;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width: 768px) {
+    body {
+        font-size: 1.1em;
+    }
+
+    .aboutMe,
+    .myHobbies,
+    .portfolio,
+    .education,
+    .contactInfo,
+    .myTop,
+    .shortInfo {
+        width: 90%;
+        margin: 20px auto;
+        padding: 10px;
+    }
+
+    .section1 img {
+        float: none;
+        margin-top: 20px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    nav {
+        padding: 10px 0;
+    }
+
+    .galleryThree,
+    .galleryFour {
+        display: block;
+    }
+
+    form {
+        max-width: none;
+    }
 }
