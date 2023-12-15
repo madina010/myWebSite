@@ -66,7 +66,7 @@
             position: relative;
         }
 
-        button {
+        header button {
             position: absolute;
             top: 15%;
             left: 10%;
@@ -80,9 +80,35 @@
             transition: 0.5s;
         }
 
-        button:hover {
+        header button:hover {
             background-color: #3c3692; 
             transform: scale(1.05);
+        }
+
+        @media screen and (min-width:768px) and (max-width: 1024px) {
+            .container {
+                max-width: 80%;
+            }
+        
+            header button {
+                position: static;
+                display: block;
+                margin: 10px auto; 
+                width: 50%;
+            }
+        }
+
+        @media screen and (min-width:480px) and (max-width: 768px) {
+            .container {
+                max-width: 90%;
+            }
+        
+            header button {
+                position: static; 
+                display: block;
+                margin: 10px auto;
+                width: 50%;
+            }
         }
     </style>
 </head>
@@ -134,7 +160,12 @@
                 <table>
                     <tr>
                         <th>Образование</th>
-                        <td>Грант в колледж ЦАТЭК, специальность "Разработчик программного обеспечения"</td>
+                        <td>
+                            <ul>
+                                <li>Среднее(9 классов): КГУ ОШ №52</li>
+                                <li>Среднее-специальное: грант в колледже ЦАТЭК, специальность "Разработчик программного обеспечения"</li>
+                            </ul>
+                        </td>
                     </tr>
                     <tr>
                         <th>Текущий курс</th>
