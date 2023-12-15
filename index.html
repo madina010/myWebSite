@@ -39,7 +39,7 @@
             margin: 0 auto;
         }
 
-        button {
+        .shortInfo .container button {
             position: absolute;
             top: 15%;
             right: 35%;
@@ -53,9 +53,38 @@
             transition: 0.5s;
         }
 
-        button:hover {
+        .shortInfo .container button:hover {
             background-color: #3c3692; 
             transform: scale(1.05);
+        }
+
+        @media screen and (min-width: 768px) and (max-width: 1024px) {
+            .container {
+                max-width: 90%;
+            }
+
+            .shortInfo .container button {
+                position: static; 
+            }
+
+            .shortInfo .container {
+                display: flex;
+                align-items: center;
+                justify-content: space-between; 
+            }
+        }
+            
+
+        @media screen and (min-width: 480px) and (max-width: 768px) {
+            .shortInfo .container button {
+                position: static;
+            }
+
+            .shortInfo .container {
+                display: flex;
+                align-items: center;
+                justify-content: space-between; 
+            }
         }
     </style>
 </head>
@@ -136,7 +165,7 @@
                         <a href="https://ibb.co.com/B41GN9z"><img src="https://i.ibb.co.com/DGqYpZV/photo-2023-12-10-21-44-54.jpg" alt="photo-2023-12-10-21-44-54"></a>
                         <a href="https://ibb.co.com/VwRgFHv"><img src="https://i.ibb.co.com/1z1rCs9/photo-2023-12-10-21-45-04.jpg" alt="photo-2023-12-10-21-45-04"></a>
                         <a href="https://ibb.co.com/2YjGmjv"><img src="https://i.ibb.co.com/FqBRNB5/photo-2023-12-10-21-45-18.jpg" alt="photo-2023-12-10-21-45-18"></a>
-                    </div><br>
+                    </div>
                     <h4>Так, а еще я часто делаю фото того, <span style="color: #940988;">что мне нравится...</span></h4><br>
                     <div class="galleryThree">
                         <a href="https://ibb.co.com/hMT35rY"><img src="https://i.ibb.co.com/59JbDCK/photo-2023-12-13-23-12-56.jpg" alt="photo-2023-12-13-23-12-56"></a>
@@ -169,7 +198,7 @@
                         <a href="https://ibb.co.com/Zz1x2r1"><img src="https://i.ibb.co.com/QvjMDVj/photo-2023-12-14-00-51-42.jpg" alt="photo-2023-12-14-00-51-42"></a>
                         <a href="https://ibb.co.com/8stnWSb"><img src="https://i.ibb.co.com/LRHDL2r/photo-2023-12-14-00-51-52.jpg" alt="photo-2023-12-14-00-51-52"></a>
                         <a href="https://ibb.co.com/V22XD3Z"><img src="https://i.ibb.co.com/9ssR2GL/photo-2023-12-14-01-00-03.jpg" alt="photo-2023-12-14-01-00-03"></a>       
-                    </div><br>
+                    </div>
                     <h4>И эти тоже красивые^^</h4><br>
                     <div class="galleryFour">
                         <a href="https://ibb.co.com/ChmGK3H"><img src="https://i.ibb.co.com/vZVn46j/photo-2023-12-13-23-13-44.jpg" alt="photo-2023-12-13-23-13-44"></a>
@@ -191,8 +220,22 @@
             <div class="end">
                 <div class="container">
                     <a name="contact"></a>
-                    <h2>Контактная информация</h2>
-                    
+                    <h2>Контактная информация</h2><br>
+                    <p>Email: mad80ina@gmail.com</p><br>
+                    <p>Телефон: +7 (776) 969-4043</p><br>
+                    <h4>Можете задать, интересующие вас, вопросы или оставить свои данные для связи ниже)</h4><br>
+                    <form action="">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" name="name" required>
+            
+                        <label for="email">Ваш Email:</label>
+                        <input type="email" id="email" name="email" required>
+            
+                        <label for="message">Ваше сообщение:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+            
+                        <button type="submit">Отправить</button>
+                    </form>
                 </div>
             </div>
         </footer>
